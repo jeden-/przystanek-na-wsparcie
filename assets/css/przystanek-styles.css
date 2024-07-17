@@ -1,0 +1,38 @@
+.tab-content {
+    display: none;
+}
+.tab-content.active {
+    display: block;
+}
+.day-group {
+    margin-bottom: 15px;
+}
+.day-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.time-range {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+.day-off-checkbox {
+    margin-left: 10px;
+}
+#special_dates input[type="date"] {
+    display: inline-block;
+    margin-top: 5px;
+}
+#special_dates .remove_special_date {
+    margin-left: 10px;
+    color: red;
+    cursor: pointer;
+}
+.regular-text {
+    width: 100%;
+    max-width: 400px;
+}
+.small-text {
+    width: 80px;
+}

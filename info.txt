@@ -1,0 +1,56 @@
+Przystanek na Wsparcie - Dokumentacja Wtyczki
+
+Wprowadzenie
+
+Przystanek na Wsparcie to wtyczka do WordPressa służąca do zarządzania zespołem, gabinetami i rezerwacjami wsparcia. Wtyczka umożliwia dodawanie, edytowanie i usuwanie członków zespołu, zarządzanie ich dostępnością oraz przeglądanie rezerwacji.
+
+Struktura Plików
+
+Poniżej znajduje się struktura plików wtyczki:
+
+przystanek-na-wsparcie.php
+assets/
+css/
+przystanek-styles.css
+js/
+przystanek-scripts.js
+Funkcjonalność
+
+Tworzenie tabel w bazie danych:
+
+Tabela zespołu: przystanek_zespol
+Tabela rezerwacji: przystanek_rezerwacje
+Menu w panelu administracyjnym WordPressa:
+
+Strona zarządzania zespołem
+Strona listy członków zespołu
+Formularz zarządzania członkami zespołu z zakładkami:
+
+Informacje podstawowe
+Dostępność
+Rozliczenia
+Obsługa AJAX:
+
+Zapis danych członków zespołu
+Usuwanie członków zespołu
+Globalne style CSS i skrypty JavaScript
+
+Szczegółowy Opis
+
+Plik: przystanek-na-wsparcie.php
+Główny plik wtyczki, który zawiera całą logikę oraz rejestrację menu i stron w panelu administracyjnym. Obsługuje tworzenie tabel w bazie danych, formularze zarządzania członkami zespołu oraz AJAX.
+
+Plik CSS: assets/css/przystanek-styles.css
+Plik CSS zawierający globalne style dla wtyczki. Stylizuje zakładki, formularze oraz inne elementy interfejsu.
+
+Plik JS: assets/js/przystanek-scripts.js
+Plik JavaScript zawierający skrypty obsługujące zakładki, AJAX oraz inne interaktywne elementy interfejsu.
+
+Instrukcje Użytkowania
+
+Zainstaluj wtyczkę poprzez dodanie jej do katalogu wp-content/plugins.
+Aktywuj wtyczkę w panelu administracyjnym WordPressa.
+Przejdź do menu 'Przystanek na Wsparcie' i zarządzaj członkami zespołu.
+Używaj zakładek, aby przeglądać i edytować informacje, dostępność oraz rozliczenia członków zespołu.
+Dodaj nowe daty niedostępności i usuń je, korzystając z przycisków w sekcji 'Dostępność'.
+Przeglądaj listę członków zespołu i zarządzaj nimi na stronie 'Lista Zespołu'.

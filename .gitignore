@@ -1,0 +1,27 @@
+# Ignore macOS hidden files
+.DS_Store
+
+# Ignore node_modules folder
+node_modules/
+
+# Ignore log files
+logs/
+*.log
+npm-debug.log*
+
+# Ignore WordPress files
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/cache/
+wp-content/backup/
+wp-content/languages/
+wp-content/ai1wm-backups/
+wp-content/uploads/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/cache/
+wp-content/backups/
+
+# Ignore IDE files
+.idea/
+.vscode/
