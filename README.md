@@ -1,48 +1,49 @@
-# Przystanek na Wsparcie
+# Przystanek Na Wsparcie - Plugin WordPress
 
-Przystanek na Wsparcie to wtyczka do WordPressa służąca do zarządzania zespołem, gabinetami i rezerwacjami wsparcia. Wtyczka umożliwia dodawanie, edytowanie i usuwanie członków zespołu, zarządzanie ich dostępnością oraz przeglądanie rezerwacji.
+Plugin do zarządzania rezerwacjami dla firm oferujących wsparcie psychologiczne i terapeutyczne.
 
-## Struktura Plików
+## Opis
 
-Poniżej znajduje się struktura plików wtyczki:
-- `przystanek-na-wsparcie.php`
-- `assets/`
-  - `css/`
-    - `przystanek-styles.css`
-  - `js/`
-    - `przystanek-scripts.js`
+"Przystanek Na Wsparcie" to plugin WordPress zaprojektowany do efektywnego zarządzania rezerwacjami, klientami i terapeutami w firmach świadczących usługi psychologiczne i terapeutyczne. Plugin oferuje zaawansowane funkcje, takie jak system rezerwacji, kalendarz, powiadomienia e-mail i SMS oraz panel administracyjny.
+
+## Główne funkcje
+
+- System rezerwacji z kalendarzem
+- Zarządzanie użytkownikami (terapeuci, recepcjoniści, klienci)
+- Powiadomienia e-mail i SMS
+- Panel administracyjny z widokiem kalendarza
+- System pomocy kontekstowej
+- Strona FAQ w panelu administracyjnym
+- Raportowanie i statystyki (w planach)
+
+## Wymagania
+
+- WordPress 5.0 lub nowszy
+- PHP 7.2 lub nowszy
+- MySQL 5.6 lub nowszy
 
 ## Instalacja
 
-1. Skopiuj wtyczkę do katalogu `wp-content/plugins`.
-2. Aktywuj wtyczkę w panelu administracyjnym WordPressa.
+1. Pobierz plik ZIP z repozytorium.
+2. W panelu administracyjnym WordPress przejdź do "Wtyczki" -> "Dodaj nową" -> "Wyślij wtyczkę na serwer".
+3. Wybierz pobrany plik ZIP i kliknij "Zainstaluj teraz".
+4. Po zakończeniu instalacji kliknij "Włącz wtyczkę".
 
-## Funkcjonalność
+## Konfiguracja
 
-1. Tworzenie tabel w bazie danych:
-   - Tabela zespołu: `przystanek_zespol`
-   - Tabela rezerwacji: `przystanek_rezerwacje`
+1. Po aktywacji pluginu, w menu bocznym pojawi się nowa pozycja "Przystanek Na Wsparcie".
+2. Przejdź do "Ustawienia" w menu pluginu, aby skonfigurować podstawowe opcje.
+3. Skonfiguruj powiadomienia e-mail i SMS w odpowiednich sekcjach ustawień.
 
-2. Menu w panelu administracyjnym WordPressa:
-   - Strona zarządzania zespołem
-   - Strona listy członków zespołu
+## Pomoc i FAQ
 
-3. Formularz zarządzania członkami zespołu z zakładkami:
-   - Informacje podstawowe
-   - Dostępność
-   - Rozliczenia
+- Pomoc kontekstowa jest dostępna w panelu administracyjnym na odpowiednich ekranach.
+- Strona FAQ jest dostępna w menu pluginu w panelu administracyjnym.
 
-4. Obsługa AJAX:
-   - Zapis danych członków zespołu
-   - Usuwanie członków zespołu
+## Wsparcie
 
-5. Globalne style CSS i skrypty JavaScript
+W razie problemów lub pytań, prosimy o utworzenie nowego "Issue" w repozytorium GitHub.
 
-## Instrukcje Użytkowania
+## Licencja
 
-1. Zainstaluj wtyczkę poprzez dodanie jej do katalogu `wp-content/plugins`.
-2. Aktywuj wtyczkę w panelu administracyjnym WordPressa.
-3. Przejdź do menu 'Przystanek na Wsparcie' i zarządzaj członkami zespołu.
-4. Używaj zakładek, aby przeglądać i edytować informacje, dostępność oraz rozliczenia członków zespołu.
-5. Dodaj nowe daty niedostępności i usuń je, korzystając z przycisków w sekcji 'Dostępność'.
-6. Przeglądaj listę członków zespołu i zarządzaj nimi na stronie 'Lista Zespołu'.
+Ten projekt jest licencjonowany na podstawie [GPL v2 lub nowszej](https://www.gnu.org/licenses/gpl-2.0.html).
